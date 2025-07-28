@@ -1,2 +1,2 @@
-# PiggyVest Clone
-Building the hompage of Opay from the start
+# Piggyvest Clone
+Building the hompage of Piggyvest from the start
