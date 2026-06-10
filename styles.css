@@ -36,6 +36,7 @@
 html { scroll-behavior:smooth; }
 body { font-family:var(--font); color:var(--navy); background:var(--white); overflow-x:hidden; line-height:1.6; -webkit-font-smoothing:antialiased; }
 img  { display:block; max-width:100%; height:auto; }
+svg  { display:block; max-width:100%; height:auto; }
 ul   { list-style:none; }
 a    { text-decoration:none; color:inherit; }
 
@@ -107,7 +108,7 @@ a    { text-decoration:none; color:inherit; }
 }
 
 .logo { flex-shrink:0; }
-.logo img { width:110px; height:auto; }
+.logo img { width:100px; height:auto; }
 .logo:focus-visible { outline:2.5px solid var(--blue); outline-offset:4px; border-radius:4px; }
 
 /* Nav */
@@ -493,6 +494,7 @@ a    { text-decoration:none; color:inherit; }
   margin-bottom:.25rem;
 }
 .scard-icon img { width:36px; height:36px; object-fit:contain; }
+.scard-icon svg { width:36px; height:36px; color:inherit; }
 
 .scard h3 { font-size:1.05rem; font-weight:700; }
 .scard p  { font-size:.875rem; color:var(--text-muted); line-height:1.55; flex:1; }
@@ -566,7 +568,7 @@ a    { text-decoration:none; color:inherit; }
   border-bottom:1px solid var(--border);
 }
 
-.footer-brand img   { width:100px; height:auto; margin-bottom:.75rem; }
+.footer-brand img   { width:90px; height:auto; margin-bottom:.75rem; }
 .footer-brand p     { font-size:.85rem; color:var(--text-muted); max-width:200px; line-height:1.6; }
 .footer-badges      { display:flex; gap:.5rem; margin-top:1rem; }
 .footer-badges a    {
@@ -578,7 +580,8 @@ a    { text-decoration:none; color:inherit; }
   transition:background var(--transition);
 }
 .footer-badges a:hover { background:var(--gray-100); }
-.footer-badges img  { width:18px; height:18px; object-fit:contain; }
+.footer-badges img  { width:20px; height:20px; object-fit:contain; }
+.footer-badges svg  { width:20px; height:20px; color:inherit; }
 
 .footer nav h4 {
   font-size:.75rem;
